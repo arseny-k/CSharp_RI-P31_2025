@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abaris/C-Sharp/Lab2/Lab2.csproj",
-      "projectName": "Lab2",
-      "projectPath": "/home/abaris/C-Sharp/Lab2/Lab2.csproj",
+      "projectUniqueName": "/home/abaris/C-Sharp/Lab2/Test.csproj",
+      "projectName": "Test",
+      "projectPath": "/home/abaris/C-Sharp/Lab2/Test.csproj",
       "packagesPath": "/home/abaris/.nuget/packages/",
       "outputPath": "/home/abaris/C-Sharp/Lab2/obj/",
       "projectStyle": "PackageReference",
