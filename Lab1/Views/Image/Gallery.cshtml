@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Gallery";
+    var images = System.IO.Directory.GetFiles("wwwroot/images");
+}
+
+<h1>Image Gallery</h1>
+
+<div>
+    @foreach (var imagePath in images)
+    {
+        var fileName = System.IO.Path.GetFileName(imagePath);
+        <div style="margin:10px;">
+            <img src="~/images/@fileName" alt="@fileName" width="200" />
+        </div>
+    }
+</div>
